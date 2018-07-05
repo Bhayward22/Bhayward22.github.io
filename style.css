@@ -1,0 +1,131 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #000;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+  font-size: 20px;
+}
+
+/*This changes the section images*/
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+section img{
+  display: flex;
+  position: center;
+  width: 100%;
+}
+
+/*This changes section lists*/
+
+section ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+section .container {
+  padding: 40px;
+}
+
+/*Jumbotron changes are made here*/
+
+.jumbotron h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 100px;
+}
+
+.jumbotron p{
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  text-align:center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Navigation bar */
+.navbar {
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+.navbar li{
+  color: #000;
+  padding: 20px;
+  margin: 0 auto;
+  font-size: 20px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.navbar li a:hover{
+  text-decoration: none;
+}
+
+
+.jumbotron{
+  background:linear-gradient(
+                     rgba(20,20,20, .5),
+                     rgba(20,20,20, .5)),
+                     url('https://i.imgur.com/FK6qQho.jpg');
+  height: 650px;
+}
+
+
+/* Column CSS */
+
+.col-sm-9 {
+  text-align: center;
+  font-size: 1.3em;
+  padding-top: 40px;
+}
+
+.col-sm-3 img{
+  box-shadow: 2px 6px 15px 1px rgba(3,40,80,0.26);
+}
+
+.col-sm-6 img{
+  box-shadow: 2px 6px 15px 1px rgba(3,40,80,0.26);
+}
+
+/* Footer CSS */
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+  float: left;
+}

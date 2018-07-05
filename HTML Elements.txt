@@ -1,0 +1,73 @@
+
+HTML Basics:
+
+HTML stands for HyperText Markup Language and is used to create the structure and content of a webpage.
+Most HTML elements contain opening and closing tags with raw text or other HTML tags between them.
+Single-closing tags cannot enclose raw text or other elements.
+Comments are written in HTML using the following syntax: <!-- comment -->.
+HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent element.
+Whitespace between HTML elements helps make code easier to read while not changing how elements appear in the browser.
+Indentation also helps make code easier to read. It makes parent-child relationships visible.
+The <!DOCTYPE html> declaration should always be the first line of code in your HTML files.
+The <html> element will contain all of your HTML code.
+Information about the web page, like the title, belongs within the <head> of the page.
+You can add a title to your web page by using the <title> element, inside of the head.
+A webpage's title appears in a browser's tab.
+Code for visible HTML content is placed inside of the <body> element.
+
+
+
+
+HTML Common Tags:
+
+Headings and sub-headings, <h1> to <h6> tags, are used to enlarge text.
+<p>, <span> and <div> tags specify text or blocks.
+The <em> and <strong> tags are used to emphasize text.
+Line breaks are created with the <br> tag.
+Ordered lists (<ol>) are numbered and unordered lists (<ul>) are bulleted.
+Images (<img>) and videos (<video>) can be added by linking to an existing source.
+Anchor tags (<a>) are used to link to internal pages, external pages or content on the same page.
+You can create sections on a webpage and jump to them using <a> tags and addings ids to the elements you wish to jump to.
+The nav element contains links to internal pages or content.
+
+
+
+
+
+HTML Table Elements & Tags:
+
+The <table> element creates a table.
+The <tr> element adds rows to a table.
+To add data to a row, you can use the <td> element.
+Table headings clarify the meaning of data. Headings are added with the <th> element.
+Table data can span columns using the colspan attribute.
+Table data can span rows using the rowspan attribute.
+Tables can be split into three main sections: a head, a body, and a footer.
+A table's head is created with the <thead> element.
+A table's body is created with the <tbody> element.
+A table's footer is created with the <tfoot> element.
+
+HMTL Grid
+
+Grid Layout - Fastest way to making responsive rows/blocks for Website Layouts
+<body>
+  <div class="grid">
+    <div class="box a">A</div>
+    <div class="box b">B</div>
+    <div class="box c">C</div>
+    <div class="box d">D</div>
+    <div class="box e">E</div>
+  </div>
+</body>
+
+grid-template-areas specifies grid named grid areas
+grid layouts are two-dimensional: they have a row, or inline, axis and a column, or block, axis.
+justify-items specifies how individual elements should spread across the row axis
+justify-content specifies how groups of elements should spread across the row axis
+justify-self specifies how a single element should position itself with respect to the row axis
+align-items specifies how individual elements should spread across the column axis
+align-content specifies how groups of elements should spread across the column axis
+align-self specifies how a single element should position itself with respect to the column axis
+grid-auto-rows specifies the height of rows added implicitly to the grid
+grid-auto-columns specifies the width of columns added implicitly to the grid
+grid-auto-flow specifies in which direction implicit elements should be created
